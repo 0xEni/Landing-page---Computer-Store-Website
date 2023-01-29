@@ -1,0 +1,178 @@
+img {
+    width: 300px;
+    height: auto;
+}
+
+h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+.header {
+    background-color: #1F2937;
+    height: auto;
+    
+}
+
+.heading {
+    display: flex;
+    max-width: 1000px;
+    justify-content: center;
+    align-self: center;
+    margin: auto;
+    flex-direction: row;
+    
+
+}
+
+ul {
+    gap: 30px;
+    margin-right: 20px;
+    align-self:flex-end;
+}
+
+
+
+a {
+    /* this removes the line under our links */
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    flex: 1;
+  }
+
+/* Top section */
+  .top {
+    display: flex;
+    margin-bottom: 50px;
+    max-width: 1000px;
+    justify-content: center;
+    align-self: center;
+    margin: auto;
+  }
+
+  .top-text {
+    flex-shrink: 1;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 20px;
+  }
+
+  .top img {
+    margin-right: 20px;
+  }
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.top p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+/* showcase section*/
+
+.showcase{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.showcase img {
+    height: 200px;
+    width: auto;
+}
+
+.showcase h3 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    align-self: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.showcase-info {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    max-width: 600px;
+    margin: auto;
+    gap: 30px 20px;
+}
+
+/* Quote section */
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.quote p {
+    max-width: 800px;
+    align-self: center;
+    margin: 20px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+/* Action section*/
+
+.action {
+    display: flex;
+    align-items: center;
+
+}
+
+.action-banner {
+    background-color: #3882f6;
+    max-width: 600px;
+    align-self: center;
+    flex: 1;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    
+    
+
+    
+}
+
+.items-action {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 400px;
+    flex-direction: row;
+    color:#F9FAF8;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+/* Footer */
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+}
+
+.footer p {
+    color: #E5E7EB;
+    align-self: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
